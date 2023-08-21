@@ -7,6 +7,9 @@ public class Baravelli extends CandyBox {
     public Baravelli(){
 
     }
+    public Baravelli(float radius, float height){
+
+    }
 
     @Override
     public float getVolume() {

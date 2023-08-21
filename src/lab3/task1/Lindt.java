@@ -20,6 +20,9 @@ public class Lindt extends CandyBox {
     public Lindt(){
 
     }
+    public Lindt(float length, float width, float height){
+
+    }
     public Lindt(String origin, String flavor, float length, float width, float height){
         this.origin = origin;
         this.flavor = flavor;

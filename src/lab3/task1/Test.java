@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Test {
     public static void main (String[] args){
 
-        Baravelli baravelli = new Baravelli();
+        Baravelli baravelli = new Baravelli(5, 6);
        // System.out.println(baravelli);
 
 
@@ -21,7 +21,7 @@ public class Test {
 //        System.out.println(candy1==candy2);
 //        System.out.println(candy1.equals(candy2));
 
-        Lindt lindt1 =  new Lindt();
+        Lindt lindt1 =  new Lindt(6, 5.6f, 8);
         lindt1.flavor = "Chocolate";
         lindt1.origin = "France";
 
@@ -30,7 +30,7 @@ public class Test {
         lindt2.origin = "France";
         //System.out.println(lindt2.equals(lindt1));
 
-        ChocAmor Choc1 = new ChocAmor();
+        ChocAmor Choc1 = new ChocAmor(4.7f);
         //.............task 4.................
         baravelli.printBavarelliDim(); //cum scriu corect sa separ valorile pe fiecare linie ??
         lindt1.printLindtDim();

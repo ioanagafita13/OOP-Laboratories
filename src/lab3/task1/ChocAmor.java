@@ -6,6 +6,9 @@ public class ChocAmor extends CandyBox {
     public ChocAmor(){
 
     }
+    public ChocAmor(float length){
+
+    }
 
     @Override
     public float getVolume() {
