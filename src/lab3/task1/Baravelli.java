@@ -29,6 +29,6 @@ public class Baravelli extends CandyBox {
 
     //..........task 4.............
     public void printBavarelliDim(){
-        System.out.printf(String.valueOf(this.radius), String.valueOf(this.height) + " ");
+        System.out.printf(String.valueOf(this.radius), String.valueOf(this.height) + "\n");
     }
 }

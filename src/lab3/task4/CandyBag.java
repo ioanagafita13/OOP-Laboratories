@@ -10,6 +10,10 @@ import java.util.ArrayList;
 public class CandyBag {
     private ArrayList<CandyBox> CandyBag = new ArrayList();
 
+    public ArrayList<CandyBox> getCandyBag(){ // getter
+        return CandyBag;
+    }
+
     public CandyBag() {
         Baravelli Candy1 = new Baravelli(5,5 );
         ChocAmor Candy2 = new ChocAmor(3.4F);

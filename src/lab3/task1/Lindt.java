@@ -36,6 +36,7 @@ public class Lindt extends CandyBox {
         return height * length * width;
     }
     public void printLindtDim(){
-        System.out.printf(String.valueOf(this.height), this.width, this.length+ " ");
+
+        System.out.printf(String.valueOf(this.height), this.width, this.length+ "\n");
     }
 }

@@ -1,6 +1,7 @@
 package lab1.task1;
 
-public class VeterinaryTest {public static void main(String[] args) {
+public class VeterinaryTest {
+    public static void main(String[] args) {
     VeterinaryReport vr = new VeterinaryReport();
     vr.cats = 99;
     vr.dogs = 199;

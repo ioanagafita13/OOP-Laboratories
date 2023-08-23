@@ -38,6 +38,7 @@ public class Polygon {
     }
 
     public void printPolygon() {
+
         System.out.println(Arrays.toString(P));
     }
 }
