@@ -39,4 +39,9 @@ public class Lindt extends CandyBox {
 
         System.out.printf(String.valueOf(this.height), this.width, this.length+ "\n");
     }
+
+    @Override
+    public  String toString() {
+        return "The " + origin + " " + flavor + " has volume " + getVolume();
+    }
 }

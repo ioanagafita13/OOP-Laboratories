@@ -12,13 +12,17 @@ public class Area {
     public Area(){
 
     }
-    public Area(int number, String street){
+    public Area(CandyBag candyBag, int number, String street){
+        this.candyBag = candyBag;
         this.number = number;
         this.street = street;
     }
     public void getBirthDayCard(){
         System.out.printf("Adresa este strada %s, nr %d\n", this.street, this.number);
-        System.out.printf("La multi ani!");
+        System.out.printf("La multi ani!\n");
+        for (CandyBox candyBox : candyBag.getCandyBag()) {
+            System.out.println(candyBox.toString());
+        }
     }
 
 

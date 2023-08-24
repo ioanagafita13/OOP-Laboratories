@@ -8,7 +8,8 @@ public class Baravelli extends CandyBox {
 
     }
     public Baravelli(float radius, float height){
-
+        this.radius = radius;
+        this.height = height;
     }
 
     @Override
@@ -29,6 +30,11 @@ public class Baravelli extends CandyBox {
 
     //..........task 4.............
     public void printBavarelliDim(){
-        System.out.printf(String.valueOf(this.radius), String.valueOf(this.height) + "\n");
+        System.out.printf("Sunt aici %f %f\n", radius, height);
+        // %c -> caracter
+        // %d -> decimal adica intreg
+        // %f -> float
+        // %s -> string
+        // %ld -> long long
     }
 }

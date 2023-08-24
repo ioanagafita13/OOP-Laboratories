@@ -11,17 +11,15 @@ public class CandyBag {
     private ArrayList<CandyBox> CandyBag = new ArrayList();
 
     public ArrayList<CandyBox> getCandyBag(){ // getter
+
         return CandyBag;
     }
 
     public CandyBag() {
-        Baravelli Candy1 = new Baravelli(5,5 );
-        ChocAmor Candy2 = new ChocAmor(3.4F);
-        Lindt Candy3 = new Lindt(3, 10, 6);
+    }
 
-        CandyBag.add(Candy1);
-        CandyBag.add(Candy2);
-        CandyBag.add(Candy3);
+    public void addCandy(CandyBox candyBox) {
+        CandyBag.add(candyBox);
     }
 
 

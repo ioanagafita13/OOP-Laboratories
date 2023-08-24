@@ -30,8 +30,18 @@ public class Test {
         lindt2.origin = "France";
         //System.out.println(lindt2.equals(lindt1));
 
+        //.............. task 4 .............
+        CandyBag candyBag = new CandyBag();
+        Baravelli Candy1 = new Baravelli(5,5 );
+        ChocAmor Candy2 = new ChocAmor(3.4F);
+        Lindt Candy3 = new Lindt(3, 10, 6);
+
+        candyBag.addCandy(Candy1);
+        candyBag.addCandy(Candy2);
+        candyBag.addCandy(Candy3);
+
         ChocAmor Choc1 = new ChocAmor(4.7f);
-        //.............task 4.................
+        //.............task 5.................
         baravelli.printBavarelliDim(); //cum scriu corect sa separ valorile pe fiecare linie ??
         lindt1.printLindtDim();
         Choc1.printChocAmorDim();;
