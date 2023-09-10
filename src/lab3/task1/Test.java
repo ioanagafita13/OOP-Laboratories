@@ -42,7 +42,7 @@ public class Test {
 
         ChocAmor Choc1 = new ChocAmor(4.7f);
         //.............task 5.................
-        baravelli.printBavarelliDim(); //cum scriu corect sa separ valorile pe fiecare linie ??
+        baravelli.printBavarelliDim();
         lindt1.printLindtDim();
         Choc1.printChocAmorDim();;
 

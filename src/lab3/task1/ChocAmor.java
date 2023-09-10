@@ -7,6 +7,7 @@ public class ChocAmor extends CandyBox {
 
     }
     public ChocAmor(float length){
+        this.length = length;
 
     }
 
@@ -16,6 +17,6 @@ public class ChocAmor extends CandyBox {
         return length * length;
     }
     public void printChocAmorDim(){
-        System.out.printf(String.valueOf(this.length)+ "\n");
+        System.out.println(length);
     }
 }

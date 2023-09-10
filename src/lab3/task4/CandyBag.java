@@ -8,11 +8,11 @@ import lab3.task1.Lindt;
 import java.util.ArrayList;
 
 public class CandyBag {
-    private ArrayList<CandyBox> CandyBag = new ArrayList();
+    private ArrayList<CandyBox> candyBag = new ArrayList();
 
     public ArrayList<CandyBox> getCandyBag(){ // getter
 
-        return CandyBag;
+        return candyBag;
     }
 
     public CandyBag() {
@@ -22,6 +22,8 @@ public class CandyBag {
         CandyBag.add(candyBox);
     }
 
+    private static void add(CandyBox candyBox) {
+    }
 
 
 }

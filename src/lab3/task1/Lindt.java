@@ -21,6 +21,9 @@ public class Lindt extends CandyBox {
 
     }
     public Lindt(float length, float width, float height){
+        this.length = length;
+        this. width = width;
+        this. height = height;
 
     }
     public Lindt(String origin, String flavor, float length, float width, float height){
@@ -37,7 +40,7 @@ public class Lindt extends CandyBox {
     }
     public void printLindtDim(){
 
-        System.out.printf(String.valueOf(this.height), this.width, this.length+ "\n");
+        System.out.println(length + " " + width + " " + height);
     }
 
     @Override

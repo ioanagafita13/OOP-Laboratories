@@ -6,7 +6,7 @@ public class Vault {
 
 	public boolean checkPassword(String password) {
 		String hidden = password.substring(4, 11);
-		if (hidden.equals("POO#lab4")) {
+		if (hidden.equals("POO#lab")) { /// la debug mi-a dat "POO#lab" - parola corecta ....task 1
 			System.out.println("Access granted!");
 			return true;
 		} else {
