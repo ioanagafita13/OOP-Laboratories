@@ -10,7 +10,7 @@ public class ThrillerAlbum extends Album{
     public void addSong(Song song) {
         boolean ok = true;
         for (int i = 1; i <= song.id; i++){
-            if (song.id % 2 == 00 ){
+            if ((song.id % 2 == 00) && (song.composer == "Michael Jackson")){
                 ok = false;
                 break;
             }
